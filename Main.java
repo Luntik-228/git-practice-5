@@ -14,5 +14,6 @@ class Main {
 
     public static void printEnd() {
         System.out.println("Программа завершена");
+        System.out.print("Это добавлено в ветке dev");
     }
 }
