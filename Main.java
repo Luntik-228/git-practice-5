@@ -5,9 +5,14 @@ class Main {
         System.out.println("Второе изменение в main");
 
         printInfo();
+        printEnd();
     }
 
     public static void printInfo() {
         System.out.println("Метод printInfo выполнен");
+    }
+
+    public static void printEnd() {
+        System.out.println("Программа завершена");
     }
 }
